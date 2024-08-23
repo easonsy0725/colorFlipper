@@ -1,0 +1,39 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.color {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: #49a6e9;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2c7dbe;
+}
